@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.authors			= 'Bruno Lima'
   spec.homepage			= 'https://github.com/brunolimam/BLGaugeView.git'
   spec.source_files 		= 'BLGaugeView/*.{swift}'  
-  spec.source			= { :git => 'https://github.com/brunolimam/BLGaugeView.git', :tag => 'v0.0.1' }
+  spec.source			= { :git => 'https://github.com/brunolimam/BLGaugeView.git', :tag => spec.version.to_s }
   spec.framework  = 'UIKit'
   spec.requires_arc = true
 
