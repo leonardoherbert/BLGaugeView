@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031F4ABAAFC1E771474E1AA7 /* Pods_Gauge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90735386507202E9CDE146D6 /* Pods_Gauge.framework */; };
+		29A81E936F8AE0B3CAECC7BF /* Pods_GaugeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B14577134ED896D0A2D70B5 /* Pods_GaugeTests.framework */; };
+		615500091F72A8D800B3B50B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615500081F72A8D800B3B50B /* AppDelegate.swift */; };
+		6155000B1F72A8D800B3B50B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155000A1F72A8D800B3B50B /* ViewController.swift */; };
+		6155000E1F72A8D800B3B50B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6155000C1F72A8D800B3B50B /* Main.storyboard */; };
+		615500101F72A8D800B3B50B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6155000F1F72A8D800B3B50B /* Assets.xcassets */; };
+		615500131F72A8D800B3B50B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 615500111F72A8D800B3B50B /* LaunchScreen.storyboard */; };
+		6155001E1F72A8D900B3B50B /* GaugeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6155001D1F72A8D900B3B50B /* GaugeTests.swift */; };
+		615500291F72A8D900B3B50B /* GaugeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615500281F72A8D900B3B50B /* GaugeUITests.swift */; };
+		987522193BDC0505F327969D /* Pods_GaugeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C5E6C770662044C144A8D13 /* Pods_GaugeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6155001A1F72A8D900B3B50B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6155FFFD1F72A8D800B3B50B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615500041F72A8D800B3B50B;
+			remoteInfo = Gauge;
+		};
+		615500251F72A8D900B3B50B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6155FFFD1F72A8D800B3B50B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615500041F72A8D800B3B50B;
+			remoteInfo = Gauge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		300A2304CABD8927597A2CAD /* Pods-Gauge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gauge.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gauge/Pods-Gauge.release.xcconfig"; sourceTree = "<group>"; };
+		3D6C661F2D489B4C3F681328 /* Pods-Gauge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gauge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gauge/Pods-Gauge.debug.xcconfig"; sourceTree = "<group>"; };
+		4C5E6C770662044C144A8D13 /* Pods_GaugeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GaugeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		615500051F72A8D800B3B50B /* Gauge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gauge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		615500081F72A8D800B3B50B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6155000A1F72A8D800B3B50B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6155000D1F72A8D800B3B50B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6155000F1F72A8D800B3B50B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		615500121F72A8D800B3B50B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		615500141F72A8D800B3B50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615500191F72A8D900B3B50B /* GaugeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaugeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6155001D1F72A8D900B3B50B /* GaugeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeTests.swift; sourceTree = "<group>"; };
+		6155001F1F72A8D900B3B50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		615500241F72A8D900B3B50B /* GaugeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaugeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		615500281F72A8D900B3B50B /* GaugeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeUITests.swift; sourceTree = "<group>"; };
+		6155002A1F72A8D900B3B50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B14577134ED896D0A2D70B5 /* Pods_GaugeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GaugeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83AE8691DE704F93000C80CC /* Pods-GaugeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaugeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaugeUITests/Pods-GaugeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8CA27C13521479B8A2D59EE7 /* Pods-GaugeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaugeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaugeUITests/Pods-GaugeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90735386507202E9CDE146D6 /* Pods_Gauge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gauge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57A3234462A940111B4AFA3 /* Pods-GaugeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaugeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GaugeTests/Pods-GaugeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E301717B12EBBA84571D4759 /* Pods-GaugeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GaugeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GaugeTests/Pods-GaugeTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		615500021F72A8D800B3B50B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031F4ABAAFC1E771474E1AA7 /* Pods_Gauge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615500161F72A8D900B3B50B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A81E936F8AE0B3CAECC7BF /* Pods_GaugeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615500211F72A8D900B3B50B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987522193BDC0505F327969D /* Pods_GaugeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0214C4496D86EB4EB46CA9E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D6C661F2D489B4C3F681328 /* Pods-Gauge.debug.xcconfig */,
+				300A2304CABD8927597A2CAD /* Pods-Gauge.release.xcconfig */,
+				C57A3234462A940111B4AFA3 /* Pods-GaugeTests.debug.xcconfig */,
+				E301717B12EBBA84571D4759 /* Pods-GaugeTests.release.xcconfig */,
+				8CA27C13521479B8A2D59EE7 /* Pods-GaugeUITests.debug.xcconfig */,
+				83AE8691DE704F93000C80CC /* Pods-GaugeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		615500061F72A8D800B3B50B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				615500051F72A8D800B3B50B /* Gauge.app */,
+				615500191F72A8D900B3B50B /* GaugeTests.xctest */,
+				615500241F72A8D900B3B50B /* GaugeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		615500071F72A8D800B3B50B /* Gauge */ = {
+			isa = PBXGroup;
+			children = (
+				615500081F72A8D800B3B50B /* AppDelegate.swift */,
+				6155000A1F72A8D800B3B50B /* ViewController.swift */,
+				6155000C1F72A8D800B3B50B /* Main.storyboard */,
+				6155000F1F72A8D800B3B50B /* Assets.xcassets */,
+				615500111F72A8D800B3B50B /* LaunchScreen.storyboard */,
+				615500141F72A8D800B3B50B /* Info.plist */,
+			);
+			path = Gauge;
+			sourceTree = "<group>";
+		};
+		6155001C1F72A8D900B3B50B /* GaugeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6155001D1F72A8D900B3B50B /* GaugeTests.swift */,
+				6155001F1F72A8D900B3B50B /* Info.plist */,
+			);
+			path = GaugeTests;
+			sourceTree = "<group>";
+		};
+		615500271F72A8D900B3B50B /* GaugeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				615500281F72A8D900B3B50B /* GaugeUITests.swift */,
+				6155002A1F72A8D900B3B50B /* Info.plist */,
+			);
+			path = GaugeUITests;
+			sourceTree = "<group>";
+		};
+		6155FFFC1F72A8D800B3B50B = {
+			isa = PBXGroup;
+			children = (
+				615500071F72A8D800B3B50B /* Gauge */,
+				6155001C1F72A8D900B3B50B /* GaugeTests */,
+				615500271F72A8D900B3B50B /* GaugeUITests */,
+				615500061F72A8D800B3B50B /* Products */,
+				0214C4496D86EB4EB46CA9E0 /* Pods */,
+				F7B43C3A1BC89AA01DFB086A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7B43C3A1BC89AA01DFB086A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90735386507202E9CDE146D6 /* Pods_Gauge.framework */,
+				7B14577134ED896D0A2D70B5 /* Pods_GaugeTests.framework */,
+				4C5E6C770662044C144A8D13 /* Pods_GaugeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		615500041F72A8D800B3B50B /* Gauge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6155002D1F72A8D900B3B50B /* Build configuration list for PBXNativeTarget "Gauge" */;
+			buildPhases = (
+				4164BD399DED91421E152C94 /* [CP] Check Pods Manifest.lock */,
+				615500011F72A8D800B3B50B /* Sources */,
+				615500021F72A8D800B3B50B /* Frameworks */,
+				615500031F72A8D800B3B50B /* Resources */,
+				1056DAA4ACDC795F8DDD5195 /* [CP] Embed Pods Frameworks */,
+				2D41C2E27E979AE3579BA46D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gauge;
+			productName = Gauge;
+			productReference = 615500051F72A8D800B3B50B /* Gauge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		615500181F72A8D900B3B50B /* GaugeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615500301F72A8D900B3B50B /* Build configuration list for PBXNativeTarget "GaugeTests" */;
+			buildPhases = (
+				FDE954D53ABFFF4A9AE75AF9 /* [CP] Check Pods Manifest.lock */,
+				615500151F72A8D900B3B50B /* Sources */,
+				615500161F72A8D900B3B50B /* Frameworks */,
+				615500171F72A8D900B3B50B /* Resources */,
+				2F3D304BF22239E2A45C5AC8 /* [CP] Embed Pods Frameworks */,
+				2FC20E7AFFE4E7A7CF702284 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6155001B1F72A8D900B3B50B /* PBXTargetDependency */,
+			);
+			name = GaugeTests;
+			productName = GaugeTests;
+			productReference = 615500191F72A8D900B3B50B /* GaugeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		615500231F72A8D900B3B50B /* GaugeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 615500331F72A8D900B3B50B /* Build configuration list for PBXNativeTarget "GaugeUITests" */;
+			buildPhases = (
+				5F3C92CE872FB7847AD0F6A2 /* [CP] Check Pods Manifest.lock */,
+				615500201F72A8D900B3B50B /* Sources */,
+				615500211F72A8D900B3B50B /* Frameworks */,
+				615500221F72A8D900B3B50B /* Resources */,
+				ADA69BFAFD156980F266B79B /* [CP] Embed Pods Frameworks */,
+				4A94772BEE2830456F5F1704 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				615500261F72A8D900B3B50B /* PBXTargetDependency */,
+			);
+			name = GaugeUITests;
+			productName = GaugeUITests;
+			productReference = 615500241F72A8D900B3B50B /* GaugeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6155FFFD1F72A8D800B3B50B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Bruno Lima";
+				TargetAttributes = {
+					615500041F72A8D800B3B50B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					615500181F72A8D900B3B50B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 615500041F72A8D800B3B50B;
+					};
+					615500231F72A8D900B3B50B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 615500041F72A8D800B3B50B;
+					};
+				};
+			};
+			buildConfigurationList = 615500001F72A8D800B3B50B /* Build configuration list for PBXProject "Gauge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6155FFFC1F72A8D800B3B50B;
+			productRefGroup = 615500061F72A8D800B3B50B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				615500041F72A8D800B3B50B /* Gauge */,
+				615500181F72A8D900B3B50B /* GaugeTests */,
+				615500231F72A8D900B3B50B /* GaugeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		615500031F72A8D800B3B50B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615500131F72A8D800B3B50B /* LaunchScreen.storyboard in Resources */,
+				615500101F72A8D800B3B50B /* Assets.xcassets in Resources */,
+				6155000E1F72A8D800B3B50B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615500171F72A8D900B3B50B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615500221F72A8D900B3B50B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1056DAA4ACDC795F8DDD5195 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Gauge/Pods-Gauge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BLGaugeView/BLGaugeView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BLGaugeView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gauge/Pods-Gauge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D41C2E27E979AE3579BA46D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gauge/Pods-Gauge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F3D304BF22239E2A45C5AC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaugeTests/Pods-GaugeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FC20E7AFFE4E7A7CF702284 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaugeTests/Pods-GaugeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4164BD399DED91421E152C94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gauge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A94772BEE2830456F5F1704 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaugeUITests/Pods-GaugeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F3C92CE872FB7847AD0F6A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GaugeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADA69BFAFD156980F266B79B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GaugeUITests/Pods-GaugeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDE954D53ABFFF4A9AE75AF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GaugeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		615500011F72A8D800B3B50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6155000B1F72A8D800B3B50B /* ViewController.swift in Sources */,
+				615500091F72A8D800B3B50B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615500151F72A8D900B3B50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6155001E1F72A8D900B3B50B /* GaugeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615500201F72A8D900B3B50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615500291F72A8D900B3B50B /* GaugeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6155001B1F72A8D900B3B50B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 615500041F72A8D800B3B50B /* Gauge */;
+			targetProxy = 6155001A1F72A8D900B3B50B /* PBXContainerItemProxy */;
+		};
+		615500261F72A8D900B3B50B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 615500041F72A8D800B3B50B /* Gauge */;
+			targetProxy = 615500251F72A8D900B3B50B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6155000C1F72A8D800B3B50B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6155000D1F72A8D800B3B50B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		615500111F72A8D800B3B50B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				615500121F72A8D800B3B50B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6155002B1F72A8D900B3B50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6155002C1F72A8D900B3B50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6155002E1F72A8D900B3B50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6C661F2D489B4C3F681328 /* Pods-Gauge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gauge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teste.Gauge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6155002F1F72A8D900B3B50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 300A2304CABD8927597A2CAD /* Pods-Gauge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gauge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teste.Gauge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		615500311F72A8D900B3B50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C57A3234462A940111B4AFA3 /* Pods-GaugeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GaugeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teste.GaugeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gauge.app/Gauge";
+			};
+			name = Debug;
+		};
+		615500321F72A8D900B3B50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E301717B12EBBA84571D4759 /* Pods-GaugeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GaugeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teste.GaugeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gauge.app/Gauge";
+			};
+			name = Release;
+		};
+		615500341F72A8D900B3B50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA27C13521479B8A2D59EE7 /* Pods-GaugeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GaugeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teste.GaugeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Gauge;
+			};
+			name = Debug;
+		};
+		615500351F72A8D900B3B50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83AE8691DE704F93000C80CC /* Pods-GaugeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GaugeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teste.GaugeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Gauge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		615500001F72A8D800B3B50B /* Build configuration list for PBXProject "Gauge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6155002B1F72A8D900B3B50B /* Debug */,
+				6155002C1F72A8D900B3B50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6155002D1F72A8D900B3B50B /* Build configuration list for PBXNativeTarget "Gauge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6155002E1F72A8D900B3B50B /* Debug */,
+				6155002F1F72A8D900B3B50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		615500301F72A8D900B3B50B /* Build configuration list for PBXNativeTarget "GaugeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615500311F72A8D900B3B50B /* Debug */,
+				615500321F72A8D900B3B50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		615500331F72A8D900B3B50B /* Build configuration list for PBXNativeTarget "GaugeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615500341F72A8D900B3B50B /* Debug */,
+				615500351F72A8D900B3B50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6155FFFD1F72A8D800B3B50B /* Project object */;
+}
