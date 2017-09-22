@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name 			= 'BLGaugeView'
-  spec.version 			= '0.0.2'
+  spec.version 			= '0.0.3'
   spec.summary			= 'Provides a gauge control for ios'
   spec.platform 		= :ios
   spec.license			= 'MIT'
