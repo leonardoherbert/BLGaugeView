@@ -146,12 +146,7 @@ open class BLGaugeView: UIView {
         bgPathCleaner.addArc(withCenter:  self.centerPoint, radius: innerRadius, startAngle: fromDegree, endAngle: toDegree, clockwise: true)
         bgPathCleaner.addLine(to: self.centerPoint)
         
-        if let backgroundColor = self.backgroundColor {
-            backgroundColor.set()
-        }
-        else  {
-            UIColor.white.set()
-        }
+        UIColor.white.set()
         
         bgPathCleaner.stroke()
         bgPathCleaner.fill()
