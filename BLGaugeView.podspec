@@ -1,10 +1,10 @@
 Pod::Spec.new do |spec|
   spec.name 			= 'BLGaugeView'
-  spec.version 			= '0.0.1'
+  spec.version 			= '0.0.2'
   spec.summary			= 'Provides a gauge control for ios'
   spec.platform 		= :ios
   spec.license			= 'MIT'
-  spec.ios.deployment_target 	= '10.0'
+  spec.ios.deployment_target 	= '8.0'
   spec.authors			= 'Bruno Lima'
   spec.homepage			= 'https://github.com/brunolimam/BLGaugeView.git'
   spec.source_files 		= 'BLGaugeView/*.{swift}'  
