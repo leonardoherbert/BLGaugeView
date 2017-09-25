@@ -10,18 +10,16 @@ import Foundation
 
 open class BLGaugeView: UIView {
     
-    var redColor    : UIColor?
-    var yellowColor : UIColor?
-    var greenColor  : UIColor?
+    public var redColor    : UIColor?
+    public var yellowColor : UIColor?
+    public var greenColor  : UIColor?
     
-    var labelFont   : UIFont?
-    var labelSize   : CGFloat?
-    var labelColor  : UIColor?
+    public var labelFont   : UIFont?
+    public var labelSize   : CGFloat?
+    public var labelColor  : UIColor?
     
-    var needleColor : UIColor?
+    public var needleColor : UIColor?
     var percentValue: CGFloat = 0.0
-    
-    
     
     let totalDegree = CGFloat(3/2*Double.pi)
     let baseDegree  = CGFloat(5/4*Double.pi)
