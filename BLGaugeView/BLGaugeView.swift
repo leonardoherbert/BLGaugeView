@@ -49,7 +49,7 @@ open class BLGaugeView: UIView {
     var bgRadius: CGFloat {
         get {
             let centerValue = centerY < centerX ? centerY : centerX
-            return centerValue - (centerValue*0.2)
+            return centerValue - (centerValue*0.25)
         }
     }
     
