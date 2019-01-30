@@ -85,7 +85,7 @@ open class BLGaugeView: UIView {
     open override func draw(_ rect: CGRect) {
         self.drawBackground()
         self.drawNeedle()
-        self.drawLabels()
+        // self.drawLabels()
     }
 
 
